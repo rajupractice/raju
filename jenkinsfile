@@ -16,7 +16,7 @@ pipeline {
         }
         stage ('Deploy') {
             steps {
-                echo "love you souji my 1oth class lover and 3rd class jhansi"
+                echo "love you sasirekha and Anusha"
             }
         }
     }
