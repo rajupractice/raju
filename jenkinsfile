@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    stages {
+        stage ('Build') {
+            steps {
+                echo 'Building'
+               sh 'free -h'
+               sh ' ps -ef'
+            }
+        }
+        stage ('Test') {
+            steps {
+                echo 'testing'
+        
+            }
+        }
+        stage ('Deploy') {
+            steps {
+                echo "love you souji"
+            }
+        }
+    }
+}
