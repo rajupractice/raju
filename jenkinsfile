@@ -16,7 +16,7 @@ pipeline {
         }
         stage ('Deploy') {
             steps {
-                echo "love you souji"
+                echo "love you souji my 1oth class lover"
             }
         }
     }
